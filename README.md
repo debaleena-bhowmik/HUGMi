@@ -1,2 +1,2 @@
 # HUGMi
-Human Uro-Genital Microbiome database and hybrid classifier for improved species level annotation of 16S rRNA amplicon sequences
+Human Uro-Genital Microbiome database (HUGMi) and hybrid classifier based on q2-plugins, for 16S amplicon sequencing data
