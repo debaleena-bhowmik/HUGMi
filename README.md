@@ -1,4 +1,4 @@
-![Title](https://github.com/debaleena-bhowmik/HUGMi/blob/main/hugmi_logo.png)
+![Title](https://github.com/debaleena-bhowmik/HUGMi/blob/main/hugmi_logo_nb.png)
 
 # HUGMi
 Human Uro-Genital Microbiome database (HUGMi) and hybrid classifier based on q2-plugins, for 16S amplicon sequencing data (pre-print https://doi.org/10.1101/2025.05.01.651608)
