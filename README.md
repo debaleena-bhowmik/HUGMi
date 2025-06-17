@@ -9,4 +9,5 @@ python hugmi_hybrid_classifier.py --rep-seqs representative-sequence.qza --datab
 ```
 
 Citation [pre-print](https://doi.org/10.1101/2025.05.01.651608) :
+
 Bhowmik, D., & Paul, S. (2025). HUGMi: Human Uro-Genital Microbiome database and hybrid classifier for improved species level annotation of 16S rRNA amplicon sequences. bioRxiv, 2025-05.
