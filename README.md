@@ -62,15 +62,15 @@ HUGMi.zip:: Contains HUGMi sequence file (HUGMi_seq.fasta) & taxonomy file (HUGM
 
 qza_files.zip:: Contains the following q2 compatible files:
 
-                HUGMi_seq.qza - HUGMi sequence (.qza) file
+i) HUGMi_seq.qza - HUGMi sequence (.qza) file
                 
-                HUGMi_taxa.qza - HUGMi taxonomy (.qza) file
+ii) HUGMi_taxa.qza - HUGMi taxonomy (.qza) file
                 
-                HUGMi_v3v4_classifier.qza - HUGMi sklearn trained classifier for V3V4 region
+iii) HUGMi_v3v4_classifier.qza - HUGMi sklearn trained classifier for V3V4 region
                 
-                HUGMi_v4_classifier.qza - HUGMi sklearn trained classifier for V4 region
+iv) HUGMi_v4_classifier.qza - HUGMi sklearn trained classifier for V4 region
                 
-                test-rep-seq.qza - Sample representative sequence file
+v) test-rep-seq.qza - Sample representative sequence file
                 
                 
 
