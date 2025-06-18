@@ -57,13 +57,22 @@ Hybrid taxonomy classifier using QIIME 2
 ### File description:
 
 hugmi_hybrid_classifier.py:: The hybrid classfier program
+
 HUGMi.zip:: Contains HUGMi sequence file (HUGMi_seq.fasta) & taxonomy file (HUGMi_taxa.txt)
+
 qza_files.zip:: Contains the following q2 compatible files:
+
                 HUGMi_seq.qza - HUGMi sequence (.qza) file
+                
                 HUGMi_taxa.qza - HUGMi taxonomy (.qza) file
+                
                 HUGMi_v3v4_classifier.qza - HUGMi sklearn trained classifier for V3V4 region
+                
                 HUGMi_v4_classifier.qza - HUGMi sklearn trained classifier for V4 region
+                
                 test-rep-seq.qza - Sample representative sequence file
+                
+                
 
 Citation [pre-print](https://doi.org/10.1101/2025.05.01.651608) :
 
