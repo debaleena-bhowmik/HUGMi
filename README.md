@@ -12,10 +12,38 @@ The Hybrid Classifier algorithm unites the QIIME2 BLAST and sklearn-based classi
 
 
 ## Syntax:
+
+### General usage (with default parameters)
 ```
-python hugmi_hybrid_classifier.py --rep-seqs representative-sequence.qza --database-taxonomy hugmi_taxonomy.qza --database-sequences hugmi_sequences.qza --classifier hugmi_classifier.qza
+python hugmi_hybrid_classifier.py --rep-seqs test-rep-seqs.qza --database-taxonomy HUGMi_taxa.qza --database-sequences HUGMi_seq.qza --classifier HUGMi_v4_classifier.qza
 ```
 
+
+### For help how to run the program:
+```
+python hugmi_hybrid_classifier.py --help
+
+usage: hugmi_hybrid_classifier.py [-h] --rep-seqs REP_SEQS --database-taxonomy DATABASE_TAXONOMY --database-sequences DATABASE_SEQUENCES --classifier
+                                  CLASSIFIER [--max_accepts MAX_ACCEPTS] [--perc_identity PERC_IDENTITY] [--query_cov QUERY_COV]
+                                  [--classifier_confidence CLASSIFIER_CONFIDENCE] [--num_threads NUM_THREADS] [--output-dir OUTPUT_DIR]
+
+Hybrid taxonomy classifier using QIIME 2
+
+-h, --help                      show this help message and exit
+--rep-seqs REP_SEQS             Path to representative sequences artifact (.qza)
+--database-taxonomy             DATABASE_TAXONOMY
+                                Path to database taxonomy file (.qza)
+--database-sequences            DATABASE_SEQUENCES
+                                Path to database sequences file (.qza)
+--classifier CLASSIFIER         Path to pre-trained sklearn classifier (.qza)
+--max_accepts MAX_ACCEPTS       Maximum number of hits to keep for each query (default 10)
+--perc_identity PERC_IDENTITY   Rejects if percent identity to query is lower (default 1.0)
+--query_cov QUERY_COV           Rejects if alignment coverage is lower (default 0.95)
+--classifier_confidence         CLASSIFIER_CONFIDENCE
+                                Confidence threshold for sklearn (default 0.7)
+--num_threads NUM_THREADS       Number of threads (CPUs) used for both classifiers (default 5)
+--output-dir OUTPUT_DIR         Directory to save outputs
+```
 
 
 Citation [pre-print](https://doi.org/10.1101/2025.05.01.651608) :
