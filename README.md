@@ -1,4 +1,4 @@
-![Title](https://github.com/debaleena-bhowmik/HUGMi/blob/main/hugmi_logo_nb.png)
+ ![Title](https://github.com/debaleena-bhowmik/HUGMi/blob/main/hugmi_logo_nb.png)
 
 Human Uro-Genital Microbiome database (HUGMi) and hybrid classifier based on q2-plugins, for 16S rRNA amplicon sequencing data.
 
@@ -63,9 +63,11 @@ Information regarding how to train 16S rRNA region specific q2 classfier can be 
 
 ### File description:
 
-hugmi_hybrid_classifier.py:: The hybrid classfier program
-
-HUGMi.zip:: Contains HUGMi database sequence file (HUGMi_seq.fasta) & taxonomy file (HUGMi_taxa.txt)
+| File Name | File List | Description |
+| --- | --- | --- |
+| hugmi_hybrid_classifier.py | NA | The hybrid classfier program |
+| HUGMi.zip | HUGMi_seq.fasta | HUGMi sequence file |
+|    | HUGMi_taxa.txt | HUGMi taxonomy file |
 
 qza_files.zip:: Contains the following q2 compatible files:
 
