@@ -10,6 +10,13 @@ HUGMi represents the sole reference database specifically optimized for bacteria
 The Hybrid Classifier algorithm unites the QIIME2 BLAST and sklearn-based classification methods to facilitate superior species-level taxonomic assignment. This classification system offers parameterization flexibility through adjustable confidence thresholds and is compatible with any 16S rRNA databases.
 
 
+### Requirements:
+
+To run the program create a QIIME 2 (q2) conda environment and execute the program from within that environment. The program is compatible for QIIME 2 amplicon distribution version 2023.9 and above. The given (.qza) files were created in q2 version 2024.10.
+
+Note - Make sure all the .qza files are generated in the same q2 version to prevent version conflict.
+
+
 
 ## Syntax:
 
@@ -45,6 +52,18 @@ Hybrid taxonomy classifier using QIIME 2
 --output-dir OUTPUT_DIR         Directory to save outputs
 ```
 
+
+
+### File description:
+
+hugmi_hybrid_classifier.py:: The hybrid classfier program
+HUGMi.zip:: Contains HUGMi sequence file (HUGMi_seq.fasta) & taxonomy file (HUGMi_taxa.txt)
+qza_files.zip:: Contains the following q2 compatible files:
+                HUGMi_seq.qza - HUGMi sequence (.qza) file
+                HUGMi_taxa.qza - HUGMi taxonomy (.qza) file
+                HUGMi_v3v4_classifier.qza - HUGMi sklearn trained classifier for V3V4 region
+                HUGMi_v4_classifier.qza - HUGMi sklearn trained classifier for V4 region
+                test-rep-seq.qza - Sample representative sequence file
 
 Citation [pre-print](https://doi.org/10.1101/2025.05.01.651608) :
 
