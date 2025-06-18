@@ -13,13 +13,13 @@ The Hybrid Classifier algorithm unites the QIIME2 BLAST and sklearn-based classi
 
 ## Syntax:
 
-### General usage (with default parameters)
+### General usage (with default parameters):
 ```
 python hugmi_hybrid_classifier.py --rep-seqs test-rep-seqs.qza --database-taxonomy HUGMi_taxa.qza --database-sequences HUGMi_seq.qza --classifier HUGMi_v4_classifier.qza
 ```
 
 
-### For help how to run the program:
+### For help on how to run the program:
 ```
 python hugmi_hybrid_classifier.py --help
 
