@@ -58,7 +58,7 @@ Hybrid taxonomy classifier using QIIME 2
 
 hugmi_hybrid_classifier.py:: The hybrid classfier program
 
-HUGMi.zip:: Contains HUGMi sequence file (HUGMi_seq.fasta) & taxonomy file (HUGMi_taxa.txt)
+HUGMi.zip:: Contains HUGMi database sequence file (HUGMi_seq.fasta) & taxonomy file (HUGMi_taxa.txt)
 
 qza_files.zip:: Contains the following q2 compatible files:
 
