@@ -65,22 +65,15 @@ Information regarding how to train 16S rRNA region specific q2 classfier can be 
 
 | File Name | File List | Description |
 | --- | --- | --- |
-| hugmi_hybrid_classifier.py | NA | The hybrid classfier program |
+| hugmi_hybrid_classifier.py | -- | The hybrid classfier program |
 | HUGMi.zip | HUGMi_seq.fasta | HUGMi sequence file |
 |    | HUGMi_taxa.txt | HUGMi taxonomy file |
-
-qza_files.zip:: Contains the following q2 compatible files:
-
-i) HUGMi_seq.qza - HUGMi sequence (.qza) file
-                
-ii) HUGMi_taxa.qza - HUGMi taxonomy (.qza) file
-                
-iii) HUGMi_v3v4_classifier.qza - HUGMi sklearn trained classifier for V3V4 region
-                
-iv) HUGMi_v4_classifier.qza - HUGMi sklearn trained classifier for V4 region
-                
-v) test-rep-seq.qza - Sample representative sequence file
-                
+| qza_files.zip | HUGMi_seq.qza | HUGMi sequence (.qza) file |
+|    | HUGMi_taxa.qza | HUGMi taxonomy (.qza) file |
+|    | HUGMi_v3v4_classifier.qza | HUGMi sklearn trained classifier for V3V4 region |
+|    | HUGMi_v4_classifier.qza | HUGMi sklearn trained classifier for V4 region |
+|    | test-rep-seq.qza | Sample representative sequence file |
+  
                 
 
 Citation [pre-print](https://doi.org/10.1101/2025.05.01.651608) :
