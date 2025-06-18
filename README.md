@@ -59,7 +59,7 @@ python hugmi_hybrid_classifier.py --rep-seqs rep-seqs.qza --database-taxonomy ~/
 ```
 
 
-Information regarding how to train 16S region specific classier can be found [here](https://forum.qiime2.org/t/processing-filtering-and-evaluating-the-silva-database-and-other-reference-sequence-data-with-rescript/15494#heading--sixth-header).
+Information regarding how to train 16S rRNA region specific q2 classfier can be found [here](https://forum.qiime2.org/t/processing-filtering-and-evaluating-the-silva-database-and-other-reference-sequence-data-with-rescript/15494#heading--sixth-header).
 
 ### File description:
 
