@@ -53,12 +53,13 @@ Hybrid taxonomy classifier using QIIME 2
 ```
 
 
-### Usage of the classifier with other 16S rRNA databases:
+### Usage of the hybrid classifier with other 16S rRNA databases:
 ```
 python hugmi_hybrid_classifier.py --rep-seqs rep-seqs.qza --database-taxonomy ~/path/to/database-taxonomy-qza --database-sequences ~/path/to/database-sequence-qza --classifier ~/path/to/16S-region-soecific-classifier-qza
 ```
 
 
+Information regarding how to train 16S region specific classier can be found [here](https://forum.qiime2.org/t/processing-filtering-and-evaluating-the-silva-database-and-other-reference-sequence-data-with-rescript/15494#heading--sixth-header).
 
 ### File description:
 
